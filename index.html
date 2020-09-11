@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Prova Final Construção de Páginas Web </title>
+		<link rel="stylesheet" href="bootstrap.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Formulário</h1>
+			<form class="row">
+				<div class="col-5">
+					<label>Nome:</label>
+					<input type="text" name="nome" class="form-control" />
+				</div>
+				<div class="col-3">
+					<label>Data de Nascimento:</label>
+					<input type="date" name="datadenascimento" class="form-control" />
+				</div>
+				<div class="col-1">
+					<label>Ano:</label>
+					<input type="text" name="ano" class="form-control" />
+				</div>
+				<div class="col-2">
+					<label>Matéria Preferida:</label>
+					<input type="text" name="materiapreferida" class="form-control" />
+				</div>
+				<div class="col-1">
+					<button style="margin: 30px;" type="submit" class="btn btn-primary">Salvar</button>
+				</div>
+			</form>
+			
+			<table class="table table-striped">
+				<colgroup>
+					<col width="200">
+					<col width="100">
+					<col width="100">
+					<col width="100">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Matéria</th>
+						<th>Editar</th>
+						<th>Excluir</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Fulano</td>
+						<td>Português</td>
+						<td><button class="btn btn-warning">Editar</button></td>
+						<td><button class="btn btn-danger">Excluir</button></td>
+					</tr>
+					<tr>
+						<td>Cliclano</td>
+						<td>Matemática</td>
+						<td><button class="btn btn-warning">Editar</button></td>
+						<td><button class="btn btn-danger">Excluir</button></td>
+					</tr>
+				</tbody>
+		</div>
+	</body>
